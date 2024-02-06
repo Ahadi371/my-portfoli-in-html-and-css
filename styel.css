@@ -1,0 +1,148 @@
+#navbar ul li{
+    display: inline-block;
+    vertical-align: middle;
+}
+#navbar {
+    position: fixed;
+    position: relative;
+    
+    width: 100%;
+}
+#navbar {
+    background-color: aqua;
+    
+}
+#navbar ul img{
+    width: 50px;
+    height: 50px;
+} 
+#navbar ul li:nth-child(2){
+   padding-left: 5%;
+}
+#navbar ul li:nth-child(3){
+    padding-left: 5%;
+ }
+ #navbar ul li:nth-child(4){
+    padding-left: 45%;
+ }
+ #navbar ul li:nth-child(5){
+    padding-left: 8%;
+ }
+ #navbar ul li:nth-child(6){
+    padding-left: 8%;
+ }
+ #home h1{
+    left: 12%;
+    position: absolute;
+    top: 250px;
+    background-color: blue;
+     }
+     #home h2{
+        position: absolute;
+        left: 15%;
+      top: 300px;
+      background-color: chartreuse; 
+     }
+     #home img{
+        width: 30%;
+        position: relative;
+        left: 60%;
+        /* top: 80%; */
+        margin-top: 7%;
+        z-index: -1;
+     }
+     .main p{
+       width: 48%; 
+     }
+     .main img{
+        position: absolute;
+        width: 600px;
+        left: 50%;
+        top:830px;
+        z-index: -1;
+        /* position: relative; */
+        
+    
+     }
+     .cart ul li {
+        display: inline-block;
+        border: 1px solid;
+        height: 550px;
+        width: 30%;
+       
+     }
+     .cart ul li a img{
+        width: 440px;
+        height: 380px;
+     }
+    .reviews h2{
+        text-align: center;
+    }
+     .reviews div{
+        width: 24%;
+        display: inline-block;
+     }
+     .reviews div{
+border: 1px solid;
+     }
+     .footer {
+        background-color: aqua;
+        text-align: center;
+        font-size: 15px;
+     }
+    /* #header{
+        position: relative;
+    } 
+    #header ul li {
+        display: inline-block;
+        vertical-align: middle;
+        background-color: aqua;
+        padding-left: 10%;
+    } */
+     #aboutme p{
+width: 50%;
+     }
+     #aboutme img{
+        width: 700px;
+        height: 375px;
+position: absolute;
+left: 50%;
+bottom: 225px;
+
+     }
+     #bio div{
+        display: inline-block;
+        width: 33%;
+        border: 1px solid red;
+     }
+     /* .project-1 ul li{
+display: inline-block;
+padding-left: 20%;
+border: 1px solid; 
+width: 20px;
+     } */
+     .cart h4{
+        background-color: aqua;
+        padding: 50px
+     }
+     #review div{
+        width: 30%;
+        display: inline-block;
+     }
+     #review div i{
+font-size: 100px;
+     }
+     /* #review div h2{
+        color: orange;
+     } */
+     .form{
+        position: relative;
+        left: 5%;
+        top: 20px;
+     }
+#contact {
+    position: absolute;
+    left: 50%;
+    /* bottom: 20px; */
+    top: 100px;
+}
